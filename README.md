@@ -4,9 +4,7 @@ Development space for the Image Segmentation project
 
 [] TODO 
 
-[x]  Add Yue back onto the webtool dev site now that it is up and running
-
-[]  Inset the Drag and drop box to the site
+[]  Insert the Drag and drop box to the site
 
 []  Make s3 file bucket
 
