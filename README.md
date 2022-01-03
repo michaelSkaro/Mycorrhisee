@@ -4,11 +4,11 @@ Development space for the Image Segmentation project
 
 [] TODO 
 
-[]  Insert the Drag and drop box to the site
+[X]  Insert the Drag and drop box to the site
 
-[]  Make s3 file bucket
+[X]  Make s3 file bucket
 
-[]  Hook Image-only submission for project to s3
+[X]  Hook Image-only submission for project to s3
 
 []  Hook the model activation submission to the s3
 
