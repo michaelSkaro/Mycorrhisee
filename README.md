@@ -4,19 +4,27 @@ Development space for the Image Segmentation project
 
 [] TODO 
 
-[X]  Insert the Drag and drop box to the site
+[X] Insert the Drag and drop box to the site
 
-[X]  Make s3 file bucket
+[X] Make s3 file bucket
 
-[X]  Hook Image-only submission for project to s3
+[X] Hook Image-only submission for project to s3
 
-[]  Hook the model activation submission to the s3
+[]  Build server.js with node. server.js will provide the url and UUID to client for direct upload to s3.
 
-[]  Make lamda 
+[]  client submission will spin up a server, server will provide UUID and aws.secret, key
+
+[]  image upload to s3 triggers serverless elastic network
+
+[]  elastic network runs compute for model
+
+[]  Make lamda, write processed data to lamda 
 
 []  Hook lamda to s3
 
-[]  Hook lamda to site for the data download or can we just email user back with completed analysis?
+[]  Processed data downlaods to user directly.
+
+[]  Maybe?
 
 
 
