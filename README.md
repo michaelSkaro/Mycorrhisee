@@ -10,17 +10,17 @@ Development space for the Image Segmentation project
 
 [X] Hook Image-only submission for project to s3
 
-[]  Build server.js with node. server.js will provide the url and UUID to client for direct upload to s3.
+[X]  getPresignedURL index.js
 
-[]  client submission will spin up a server, server will provide UUID and aws.secret, key
+[]  login-page
 
-[]  image upload to s3 triggers serverless elastic network
+[]  upload image triggers EC2 event cascade
 
 []  elastic network runs compute for model
 
-[]  Make lamda, write processed data to lamda 
+[]  Make lamda, write processed data to s3
 
-[]  Hook lamda to s3
+[]  Hook lamda to return output.
 
 []  Processed data downlaods to user directly.
 
